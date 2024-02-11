@@ -1,0 +1,1 @@
+This is javascript code made for the Scriptable app on IOS. Replace the username and password variables at the top of the file with your school email and password for the Microsoft login. The code should print as its last output the average grades of each class. Have fun!
