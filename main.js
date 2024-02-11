@@ -201,7 +201,9 @@ await browser.waitForLoad();
 // At this point, we have made it to the Skyward home page
 await browser.present(true);
 
-await browser.evaluateJavaScript("var tile = document.getElementById('865-studentGrades_Widget'); tile.click();");
+// await browser.evaluateJavaScript("var tile = document.getElementById('865-studentGrades_Widget'); tile.click();");
+await browser.evaluateJavaScript("var tile = document.getElementsByTagName('a')[23]; tile.click();");
+
 await browser.waitForLoad();
 await render(browser, "https://skyward.cvschools.org");
 
